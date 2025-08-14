@@ -1,0 +1,54 @@
+@use "variables/text" as t;
+@use "variables/colours" as c;
+@use "variables/commons" as g;
+@use "flex";
+
+.h-full {
+  height: 100%;
+}
+.w-full {
+  width: 100%;
+}
+
+/* Tamaño de los textos */
+.text-xl {
+  font-size: t.$text-xl;
+  line-height: t.$text-xl--line-height;
+}
+.text-lg {
+  font-size: t.$text-lg;
+  line-height: t.$text-lg--line-height;
+}
+.text-base {
+  font-size: t.$text-base;
+  line-height: t.$text-base--line-height;
+}
+.text-sm {
+  font-size: t.$text-sm;
+  line-height: t.$text-sm--line-height;
+}
+/* -------------------- */
+
+ul {
+  margin: 0;
+  padding-inline-start: 1.625em;
+  list-style-type: disc;
+  li {
+    &::marker {
+      color: c.$bullet;
+    }
+  }
+}
+
+code {
+  background-color: c.$grey;
+  border-radius: g.$spacing;
+  font-size: .875em;
+  font-weight: 500;
+  padding: .15rem .3rem;
+}
+
+a {
+  text-decoration: none;
+  color: c.$link;
+}

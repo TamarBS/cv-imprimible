@@ -1,0 +1,25 @@
+$text-xl: 1.25rem;
+$text-xl--line-height: 1.4;
+
+$text-lg: 1.125rem;
+$text-lg--line-height: 1.55556;
+
+$text-base: 1rem;
+$text-base--line-height: 1.5;
+
+$text-gpt: 1rem;
+$text-gpt--line-height: 1.75;
+
+$text-sm: .875rem;
+$text-sm--line-height: 1.42857;
+
+p, h3 {
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+$font-weight-medium: 500;
+$font-weight-normal: 400;

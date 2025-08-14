@@ -1,0 +1,39 @@
+@use "variables/commons" as g;
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content:center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+
+.gap-1\.5 {
+  gap: calc(g.$spacing * 1.5);
+}
+.gap-10 {
+  gap: calc(g.$spacing * 3);
+}
+.gap-40 {
+  gap: calc(g.$spacing * 10);
+}
